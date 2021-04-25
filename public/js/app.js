@@ -7,7 +7,7 @@ const errorRef = document.getElementById( "error" );
 const resultRef = document.getElementById( "result" );
 
 async function get( value ) {
-	const response = await fetch( `http://localhost:3000/weather?address=${value}` );
+	const response = await fetch( `/weather?address=${value}` );
 
 	const result = await response.json();
 
