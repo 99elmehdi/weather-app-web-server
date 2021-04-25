@@ -1,0 +1,18 @@
+body {
+	color: #d3d3d3;
+	max-width: 650px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 0 16px;
+	margin: 0 auto;
+}
+
+img {
+	width: 250px;
+	height: 250px;
+}
+
+footer {
+	color: #888888;
+	border-top: 2px solid #fff000;
+	margin-top: 16px;
+}
